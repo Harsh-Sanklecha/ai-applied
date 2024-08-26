@@ -1,0 +1,75 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --foreground-rgb: 0, 0, 0;
+  --background-color: 255, 255, 255;
+  --primary-color: 7, 149, 97;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+// @media (prefers-color-scheme: dark) {
+//   :root {
+//     --foreground-rgb: 255, 255, 255;
+//     --background-start-rgb: 0, 0, 0;
+//     --background-end-rgb: 0, 0, 0;
+//   }
+// }
+
+body {
+  color: rgb(var(--foreground-rgb));
+  background: rgb(var(--background-color));
+  font-size: 18px;
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+}
+
+.base-btn {
+  padding: 24px 48px;
+  font-size: 1rem;
+  text-align: center;
+  border-radius: 1000px;
+  line-height: 1.111em;
+  transition: transform .3s, box-shadow .3s, background-color .3s;
+  display: block;
+  width: max-content;
+
+  @media screen and (max-width: 772px) {
+    padding: 24px;
+  }
+}
+
+.primary-btn {
+  @extend .base-btn;
+  color: #FFF;
+  background-color: rgb(var(--primary-color));
+  font-weight: 700;
+  box-shadow: 0 12px 35px 0 rgba(7, 149, 97, .3);
+
+  &:hover {
+    box-shadow: 0 3px 5px 0 var(--shadow-long-button-primary);
+    background-color: #068355;
+    transform: scale(.97);
+  }
+}
+
+.primary-btn-outline {
+  @extend .base-btn;
+  background-color: #fff;
+  box-shadow: 0 6px 14px rgba(0, 0, 0, .02), 0 1px 4px rgba(27, 27, 27, .02), 0 4px 14px rgba(25, 25, 25, .06);
+
+  &:hover {
+    background-color: rgb(var(--primary-color));
+    color: #fff;
+    transform: scale(.97);
+    box-shadow: 0 1px 2px rgba(0, 0, 0, .02), 0 1px 4px rgba(25, 25, 25, .06);
+  }
+}

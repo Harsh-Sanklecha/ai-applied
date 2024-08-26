@@ -1,0 +1,32 @@
+.shape {
+    position: absolute;
+}
+
+.cta-1 {
+    width: 43%;
+    border: 1px solid #5c6864;
+    border-radius: 10000px;
+    padding-top: 43%;
+    top: -317.203px;
+    left: -36px;
+}
+
+.cta-2 {
+    width: 43%;
+    border: 1px solid #5c6864;
+    border-radius: 10000px;
+    padding-top: 43%;
+    bottom: -296.203px;
+    right: -53px;
+}
+
+@media screen and (max-width: 772px) {
+    .cta-wrapper {
+        align-items: stretch;
+        padding: 50px 25px;
+    }
+
+    .footer-cta {
+        width: 100%;
+    }
+}

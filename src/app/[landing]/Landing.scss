@@ -1,0 +1,66 @@
+.hero {
+
+    h1 {
+        font-size: 56px;
+    }
+
+    .hero-left {
+        width: 50%;
+        margin-right: 30px;
+    }
+
+    .hero-right {
+        width: 46%;
+        position: relative;
+    }
+}
+
+.shape {
+    position: absolute;
+}
+
+.home-hero-1 {
+    bottom: -51px;
+    left: -51px;
+    z-index: -1;
+}
+
+.home-hero-2 {
+    right: -46px;
+    top: 30%;
+    z-index: -1;
+}
+
+.home-hero-3 {
+    top: -78px;
+    z-index: -1;
+    left: 7rem;
+}
+
+.why-number {
+    box-shadow: 0 6px 16px 0 var(--shadow-long-button-primary);
+}
+
+@media screen and (max-width: 768px) {
+
+    .hero {
+
+        h1 {
+            margin-bottom: 10px;
+            font-size: 30px;
+        }
+
+        .hero-left {
+            width: 100%;
+            margin-right: 0;
+        }
+
+        .hero-right {
+            width: 100%;
+        }
+    }
+
+    .btn {
+        width: 100%;
+    }
+}
