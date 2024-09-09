@@ -58,7 +58,7 @@ const Landing = () => {
 
   return (
     <>
-      <section className="py-10 md:py-20">
+      <section className="py-10 md:py-20 max-w-full overflow-hidden">
         <div className="container">
           <div className="hero flex flex-col md:flex-row items-center justify-between gap-y-8">
             <div className="hero-left">
@@ -66,7 +66,7 @@ const Landing = () => {
               <p className="text-lg mt-4 text-gray-500 leading-relaxed mb-10">Go from Zero to $70K in Just 9 Months—No Experience Needed. All You Need Is the Will to Learn. Anyone Can Achieve This: Will You?</p>
               <div className="flex md:flex-row flex-col items-center gap-4">
                 <a href="#" className="btn primary-btn w-full">Find out how?</a>
-                <button className="btn primary-btn-outline w-full" onClick={() => scrollToSection('why-us')}>Learn more</button>
+                {/* <button className="btn primary-btn-outline w-full" onClick={() => scrollToSection('why-us')}>Learn more</button> */}
               </div>
             </div>
             <div className="hero-right">
@@ -110,7 +110,7 @@ const Landing = () => {
             </div>
           </div>
           <div className="flex items-center justify-center gap-4">
-            <a href="#" className="btn primary-btn">Get the course</a>
+            <a href="#" className="btn primary-btn">Get Access</a>
             <a href="#" className="btn primary-btn-outline">Learn more</a>
           </div>
         </div>
@@ -155,7 +155,7 @@ const Landing = () => {
       </section>
 
       {/* About Us */}
-      <section className='relative my-20 md:my-40' id="about">
+      <section className='relative py-20 md:py-40 max-w-full overflow-hidden' id="about">
         <Image src={Shape1} alt='shape 1' className='shape about-hero-1 hidden md:block' />
         <div className="container">
           <div className="flex flex-col md:flex-row items-center justify-between gap-8 about">

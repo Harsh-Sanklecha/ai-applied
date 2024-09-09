@@ -13,7 +13,7 @@ const Footer = () => {
                 <p className='text-white mb-10'>Your AI journey starts here—begin learning today and shape your future!"</p>
               </div>
               <div className='w-full md:w-max'>
-                <a href="#" className='primary-btn footer-cta mx-auto'>Get the course</a>
+                <a href="#" className='primary-btn footer-cta mx-auto'>Get Access</a>
               </div>
             </div>
           </div>
