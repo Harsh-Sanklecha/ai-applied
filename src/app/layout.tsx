@@ -3,6 +3,8 @@ import { Plus_Jakarta_Sans } from "next/font/google";
 import "./globals.scss";
 import NavBar from "../components/NavBar/NavBar";
 import Footer from "../components/Footer/Footer";
+import { Analytics } from "@vercel/analytics/react"
+import { SpeedInsights } from "@vercel/speed-insights/next"
 
 const plusjakartaSans = Plus_Jakarta_Sans({ subsets: ["latin"] });
 
@@ -18,6 +20,8 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
+      <Analytics />
+      <SpeedInsights />
       <body className={plusjakartaSans.className}>
         <NavBar />
         {children}
