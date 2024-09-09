@@ -55,7 +55,7 @@ const NavBar = () => {
         <a href="/" className="flex items-center space-x-3 rtl:space-x-reverse">
           <Image src={Logo} height={72} alt="AI Applied" />
         </a>
-        <button type="button" className="primary-btn header-cta md:order-2">Get Access</button>
+        <a href='https://www.linkedin.com/in/chai-lakki-049758211' target='_blank' type="button" className="primary-btn header-cta md:order-2">Get Access</a>
         <div className="menu" onClick={toggleMenu}>
           <div className="icon-wrapper">
             <div className="line line1"></div>
@@ -89,7 +89,7 @@ const NavBar = () => {
             <Link href="/#about" className="text-gray-400 hover:text-primary-500 text-4xl" onClick={toggleMenu}>About</Link>
           </li>
           <div className="my-auto"></div>
-          <button type="button" className="primary-btn" style={{ width: '100%' }}>Get Access</button>
+          <a href='https://www.linkedin.com/in/chai-lakki-049758211' target='_blank' type="button" className="primary-btn" style={{ width: '100%' }}>Get Access</a>
         </ul>
         </div>
     </nav>

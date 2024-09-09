@@ -65,7 +65,7 @@ const Landing = () => {
               <h1 className="font-black leading-tight mb-6">Transform Your Future: Master AI Bots & Models Today.</h1>
               <p className="text-lg mt-4 text-gray-500 leading-relaxed mb-10">Go from Zero to $70K in Just 9 Months—No Experience Needed. All You Need Is the Will to Learn. Anyone Can Achieve This: Will You?</p>
               <div className="flex md:flex-row flex-col items-center gap-4">
-                <a href="#" className="btn primary-btn w-full">Find out how?</a>
+                <a href='https://www.linkedin.com/in/chai-lakki-049758211' target='_blank' className="btn primary-btn w-full">Find out how?</a>
                 {/* <button className="btn primary-btn-outline w-full" onClick={() => scrollToSection('why-us')}>Learn more</button> */}
               </div>
             </div>
@@ -110,8 +110,8 @@ const Landing = () => {
             </div>
           </div>
           <div className="flex items-center justify-center gap-4">
-            <a href="#" className="btn primary-btn">Get Access</a>
-            <a href="#" className="btn primary-btn-outline">Learn more</a>
+            <a href='https://www.linkedin.com/in/chai-lakki-049758211' target='_blank' className="btn primary-btn">Get Access</a>
+            <Link href="about" className="btn primary-btn-outline">Learn more</Link>
           </div>
         </div>
       </section>

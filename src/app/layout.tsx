@@ -5,7 +5,6 @@ import NavBar from "../components/NavBar/NavBar";
 import Footer from "../components/Footer/Footer";
 import { Analytics } from "@vercel/analytics/react"
 import { SpeedInsights } from "@vercel/speed-insights/next"
-import Logo from '../../public/logo.jpeg'
 
 
 const plusjakartaSans = Plus_Jakarta_Sans({ subsets: ["latin"] });
