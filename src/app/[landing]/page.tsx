@@ -15,13 +15,21 @@ const Landing = () => {
   const whyUs = [
     {
       title: 'Cost-Effective Learning',
-      description: `Colleges can cost tens to hundreds of thousands with no job guarantee. Our training offers a fraction of the cost with clear pathways to employment and earning potential.`
+      description: `Colleges charge you tens of thousands to hundreds of thousands of dollars in fees with no guarantee that you will
+ever get a job. Our training will allow you to either get employed or make money in the field at a FRACTION of the
+cost.`
     }, {
       title: 'Efficient Time Management',
-      description: `Mastering cutting-edge technologies like GenAI and low-code development can be challenging and time-consuming, especially without a clear roadmap. Unlike traditional college degrees that take 4 years, our training enables you to start earning within 6 to 9 months.`
+      description: `Learning a cutting edge technology like GenAI and low code development in order to create AI agents is time consuming
+and difficult on its own, that difficulty is greatly multiplied when you have to dig through this information by yourself
+as it is such a new technology and there is no surefire roadmap. College degrees will also take away 4 years of your time.
+With our training, you can be making money within just 6 to 9 months.
+`
     }, {
       title: 'Expert Mentorship',
-      description: `This isn't a generic YouTube playlist. Our live webinars are tailored to your specific needs, offering direct 1-on-1 access to industry professionals and a network of peers who share your goals or are where you aspire to be.`
+      description: `This isn't a youtube playlist where we give you generalized knowledge that may or may not help you. Our live webinars are curated for your
+individual needs with direct 1 on 1 access to a professional in the field and a network of likeminded students that
+are on a similar path to you or are at a level where you wish to be`
     }
   ]
 
@@ -133,6 +141,12 @@ const Landing = () => {
                 }
               </div>
               <div className='flex-1 text-pretty'>
+              <p>
+                  BY 2030, 30 PERCENT OF CURRENT JOBS WILL BE AUTOMATED
+                  WITH THE HELP OF GEN AI AND LOW CODE.
+                  The Best time to get into this was 2 years ago
+                  THe second Best time to get into this is NOW.
+              </p><br />
                 <p>
                   The IT industry has a major problem right now. There are a lot of companies shifting into AI right now and there are not enough qualified
                   people for this giant technological shift.
@@ -160,13 +174,19 @@ const Landing = () => {
         <div className="container">
           <div className="flex flex-col md:flex-row items-center justify-between gap-8 about">
             <div>
-              <h2 className='text-2xl md:text-4xl md:leading-tight mb-6 font-black'>About Us: Personalized Coaching to Help You Find Work Fast</h2>
+              <h2 className='text-2xl md:text-4xl md:leading-tight mb-6 font-black'>About Us: Personalized Coaching to find work as quickly as possible</h2>
               <p className='text-gray-500 mb-12'>
-                Our mission at Applied AI is to provide personalized coaching that helps you upskill quickly, whether you're aiming to break into the industry or transition from another technology.
+                Our mission with Applied AI is to give you personalized coaching and upskill you as quickly as possible, no matter what your goals are, be it to find work in the industry or to pivot from
+                a different technology.
                 <br /><br />
-                We're here to ensure you avoid the pitfalls we encountered, making your learning journey smoother and more efficient.
+                The main reason that me and my team have created this program is to teach as many people as we can to not make the same mistakes that we did. I wish I had this resource when I was first learning
+                and working in the industry. It could have saved me so much time and so many headaches
                 <br /><br />
-                Chai, with around 7 years of experience as a developer, began his career in 2017, working with Fortune 500 companies across Canada and the USA. He later transitioned into AI, where he now serves as a subject matter expert and advisor, helping companies automate processes and optimize resources.
+                Chai has around 7 years of experience as a developer. He started his journey back in 2017 working for multiple fortune 500 companies in both Canada and the
+                US of A
+                <br /><br />
+                A few years later, he moved to the AI side of things and has been working in the field ever since, as a subject matter
+                expert and an advisor for companies looking to automate their work and save time and manpower.
               </p>
               <Link href="about" className="btn primary-btn">Find out more</Link>
             </div>
