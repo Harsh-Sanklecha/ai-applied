@@ -181,12 +181,6 @@ are on a similar path to you or are at a level where you wish to be`
                 <br /><br />
                 The main reason that me and my team have created this program is to teach as many people as we can to not make the same mistakes that we did. I wish I had this resource when I was first learning
                 and working in the industry. It could have saved me so much time and so many headaches
-                <br /><br />
-                Chai has around 7 years of experience as a developer. He started his journey back in 2017 working for multiple fortune 500 companies in both Canada and the
-                US of A
-                <br /><br />
-                A few years later, he moved to the AI side of things and has been working in the field ever since, as a subject matter
-                expert and an advisor for companies looking to automate their work and save time and manpower.
               </p>
               <Link href="about" className="btn primary-btn">Find out more</Link>
             </div>
